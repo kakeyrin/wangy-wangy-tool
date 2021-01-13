@@ -20,3 +20,5 @@ wangy wangy tool adalah sebuah aplikasi sederhana yang digunakan untuk membuat c
 ![86951129_p0_master1200](https://user-images.githubusercontent.com/59074036/104463681-a8ede700-55e4-11eb-9a7c-98d5b9abc872.jpg)
 
 ![81](https://user-images.githubusercontent.com/59074036/104463702-af7c5e80-55e4-11eb-8a3b-aa687c9ef363.png)
+
+![86563649_p0](https://user-images.githubusercontent.com/59074036/104464300-5b25ae80-55e5-11eb-9ba2-9321808ed6ad.jpg)
