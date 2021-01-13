@@ -10,6 +10,7 @@ wangy wangy tool adalah sebuah aplikasi sederhana yang digunakan untuk membuat c
 
 # demo
 
+wangy-wangy-tool.vercel.app
 
 # foto
 
