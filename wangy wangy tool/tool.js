@@ -1,7 +1,12 @@
 function inputnama(){
     document.getElementById("p")
     const nama = document.getElementById("name").value ;
-    document.getElementById("p").innerHTML = "nama yang akan digunakan : " + nama ;
+    if(nama === ''){
+        alert('Masukin nama waifu mu cok!');
+    }else{
+        document.getElementById("p").innerHTML = `Nama waifu yang akan digunakan : <input id='isiNama' disabled='disabled'></input>` ;
+        document.getElementById('isiNama').value = nama;   
+    }
 }
 
 function template1(){
@@ -54,4 +59,21 @@ function copysemua(elementId) {
     // kalo udah sukses
     alert("sip sudah di copy");
   
-  }
+}
+
+clickEnter();
+function clickEnter(){
+    var input_1 = document.getElementById("name");
+
+    // Execute a function when the user releases a key on the keyboard
+    input_1.addEventListener("keyup", function(event) {
+    // Number 13 is the "Enter" key on the keyboard
+    if (event.keyCode === 13) {
+    // Cancel the default action, if needed
+        event.preventDefault();
+    // Trigger the button element with a click
+        document.getElementById("btnAddName").click();
+        document.getElementById("btnAddName").click(template1());
+        }
+    });
+}
