@@ -1,11 +1,11 @@
 var namaGlobal = document.getElementById("name").value ;
-var selectedTemplate = function(){};
 
 function inputnama(){
     document.getElementById("p")
     namaGlobal = document.getElementById("name").value ;
-    document.getElementById("p").innerHTML = "nama yang akan digunakan : " + namaGlobal ;
-    selectedTemplate();
+    document.getElementById("p").innerHTML = `Nama waifu yang akan digunakan : <input id='isiNama' disabled='disabled'></input>` ;
+    document.getElementById('isiNama').value = namaGlobal; 
+    document.getElementById("name").keyup(template1());
 }
 
 function template1(){
@@ -76,7 +76,7 @@ function clickEnter(){
         event.preventDefault();
     // Trigger the button element with a click
         document.getElementById("btnAddName").click();
-        document.getElementById("btnAddName").click(template1());
+        document.getElementById("btnAddName").keyup(template1());
         }
     });
 }
