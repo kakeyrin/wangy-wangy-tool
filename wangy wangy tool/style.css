@@ -64,7 +64,9 @@ nav {
 }
 
 #p {
-    margin-top : 10px ;
+    margin-top : auto ;
+    padding-top: 10px;
+    padding-left: auto;
 }
 
 .pilih-template { 
@@ -86,6 +88,13 @@ nav {
     margin: auto ;
 }
 
+#isiNama {
+    word-wrap: break-word;
+    word-break: break-all;
+    height: auto;
+    width: auto;
+}
+
 #hasil { 
     margin : 20px auto ;
     width: 680px ;
@@ -97,15 +106,17 @@ nav {
 }
 
 #copy {
-    margin-bottom: 15px ;
-    margin-top: -10px ;
-    margin-left: 10px ;
     color: #FFFFFF ;
     background-color: red ;
-    width: 50px ;
-    height: 20px ;
+    width: 150px ;
+    height: 40px ;
+    margin-top: 10px ;
     border: none ;
     cursor: pointer;
+    transition: 0.5s ;
+}
+#copy:hover {
+    background-color: rgb(202, 5, 5) ;
 }
 
 footer { 
